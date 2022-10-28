@@ -98,7 +98,7 @@ def pregunta_03():
             # características más importantes. Utilice la función f_regression.
             (
                 "selectKBest",
-                 SelectKBest(scorefuncion = fregression),
+                 SelectKBest(scorefuncion = f_regression),
             ),
             # Paso 3: Construya un modelo de regresión lineal.
             (
